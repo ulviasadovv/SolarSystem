@@ -78,10 +78,28 @@ body{
     border-radius: 50%;
 }
 
+.sunshine{
+    position: absolute;
+    border-radius: 50%;
+}
+
+.first{
+    width: 65px;
+    height: 65px;
+    background-color: rgba(244, 248, 23, 0.5);
+}
+
+.second{
+    width: 80px;
+    height: 80px;
+    background-color: rgba(244, 248, 23, 0.2);
+}
+
 .sun{
     width: 50px;
     height: 50px;
-    background-color: rgb(253, 255, 139);
+    background-color: rgb(244, 248, 23);
+    z-index: 2;
 }
 
 .earth{
