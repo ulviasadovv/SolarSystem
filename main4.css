@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(9, 8, 43);
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.circle{
+    position: absolute;
+    border: 1px solid rgb(82, 79, 151);
+    border-radius: 50%;
+}
+
+.trajectory-mercury{
+    width: 120px;
+    height: 120px;
+}
+
+.trajectory-venus{
+    width: 190px;
+    height: 190px;
+}
+
+.trajectory-earth{
+    width: 260px;
+    height: 260px;
+}
+
+.trajectory-mars{
+    width: 330px;
+    height: 330px;
+}
+
+.trajectory-jupiter{
+    width: 400px;
+    height: 400px;
+}
+
+.trajectory-saturn{
+    width: 470px;
+    height: 470px;
+}
+
+.trajectory-uran{
+    width: 540px;
+    height: 540px;
+}
+
+.trajectory-pluto{
+    width: 610px;
+    height: 610px;
+}
+
+.trajectory-neptune{
+    width: 680px;
+    height: 680px;
+}
+
+.trajectory-moon{
+    width: 42px;
+    height: 42px;
+}
+
+
+.planet{
+    position: absolute;
+    border-radius: 50%;
+}
+
+.sun{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(253, 255, 139);
+}
+
+.earth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: -120px;
+    translate: 130px;
+    width: 19px;
+    height: 19px;
+    background-color: rgb(83, 123, 255);
+    animation: turnanimation infinite linear;
+    animation-duration: 5s;
+}
+
+.mars{
+    translate: 165px;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(195, 58, 8);
+    animation: turnanimation infinite linear;
+    animation-duration: 7.5s;
+    transform-origin: -155px;
+}
+
+.jupiter{
+    translate: 200px;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(255, 199, 58);
+    animation: turnanimation infinite linear;
+    animation-duration: 26s;
+    transform-origin: -183px;
+}
+
+.neptune{
+    translate: 340px;
+    width: 22px;
+    height: 22px;
+    background-color: rgb(19, 39, 119);
+    animation: turnanimation infinite linear;
+    animation-duration: 150s;
+    transform-origin: -328px;
+}
+
+.mercury{
+    translate: 60px;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(69, 45, 35);
+    animation: turnanimation infinite linear;
+    animation-duration: 1.5s;
+    transform-origin: -53px;
+}
+
+.venus{
+    translate: 95px;
+    width: 19px;
+    height: 19px;
+    background-color: rgb(158, 84, 138);
+    animation: turnanimation infinite linear;
+    animation-duration: 3.5s;
+    transform-origin: -85px;
+}
+
+.moon{
+    transform-origin: -19px;
+    translate: 23px;
+    width: 4px;
+    height: 4px;
+    background-color: rgb(188, 188, 188);
+    animation: turnanimation infinite linear;
+    animation-duration: 416ms;
+}
+
+.saturn{
+    translate: 235px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(219, 222, 52);
+    animation: turnanimation infinite linear;
+    animation-duration: 47.5s;
+    transform-origin: -220px;
+}
+
+.pluto{
+    transform-origin: -300px;
+    translate: 305px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(160, 162, 183);
+    animation: turnanimation infinite linear;
+    animation-duration: 190s;
+}
+
+.uran{
+    transform-origin: -257px;
+    translate: 270px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(40, 120, 205);
+    animation: turnanimation infinite linear;
+    animation-duration: 95s;
+}
+
+@keyframes turnanimation{
+    0%{
+        rotate: 360deg;
+    }
+    
+}
+
